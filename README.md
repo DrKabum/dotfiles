@@ -5,20 +5,20 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 ## Dependencies
 ### packages to install
 
-- git
-- [eza](https://github.com/eza-community/eza)
-- [zoxide](https://github.com/ajeetdsouza/zoxide)
-- python3.11
-- [fzf](https://github.com/junegunn/fzf)
-- [nvim](https://neovim.io/)
-- [thefuck](https://github.com/nvbn/thefuck)
-- [bun](https://bun.sh/)
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-- [bat](https://github.com/sharkdp/bat)
+- git (version control for this repo. Yes)
+- [antigen](https://github.com/zsh-users/antigen/wiki/Installation) (plugin manager for zsh, install in $HOME)
+- [eza](https://github.com/eza-community/eza) (replacement for `ls`)
+- [zoxide](https://github.com/ajeetdsouza/zoxide) (replacement for `cd`)
+- [python3.11](https://www.python.org/) (an alias is configured for it)
+- [fzf](https://github.com/junegunn/fzf) (fuzzy finder for quick jump to file)
+- [nvim](https://neovim.io/) (this is now you IDE)
+- [thefuck](https://github.com/nvbn/thefuck) (helps rephrase missed commands)
+- [bun](https://bun.sh/) (an alias is configured for it)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) (command auto completion)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) (syntax highlighting for commands. Green command = all good)
+- [bat](https://github.com/sharkdp/bat) (syntax highlighting in `cat`)
 - Some nerd fonts (like [that one](https://www.nerdfonts.com/))
-- [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation)
-- [LazyGit](https://github.com/jesseduffield/lazygit)
+- [LazyGit](https://github.com/jesseduffield/lazygit) (an alias is configured for it)
 
 ### Other
 
