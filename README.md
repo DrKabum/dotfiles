@@ -10,13 +10,13 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 - [antigen](https://github.com/zsh-users/antigen/wiki/Installation) (plugin manager for zsh, install in $HOME)
 - [eza](https://github.com/eza-community/eza) (replacement for `ls`)
 - [zoxide](https://github.com/ajeetdsouza/zoxide) (replacement for `cd`)
-- [python3.11](https://www.python.org/) (an alias is configured for it)
+- [python3.11](https://www.python.org/) (optional as an alias is configured for it, remove it if necessary)
 - [fzf](https://github.com/junegunn/fzf) (fuzzy finder for quick jump to file)
 - [nvim](https://neovim.io/) (this is now you IDE)
 - [thefuck](https://github.com/nvbn/thefuck) (helps rephrase missed commands)
-- [bun](https://bun.sh/) (an alias is configured for it)
+- [bun](https://bun.sh/) (optional as an alias is configured for it, remove it if necessary)
 - [bat](https://github.com/sharkdp/bat) (syntax highlighting in `cat`)
-- [LazyGit](https://github.com/jesseduffield/lazygit) (an alias is configured for it)
+- [LazyGit](https://github.com/jesseduffield/lazygit) (optional as an alias is configured for it, remove it if necessary)
 
 ### Other
 
