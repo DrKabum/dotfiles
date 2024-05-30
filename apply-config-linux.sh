@@ -48,5 +48,5 @@ sudo apt --yes install python3.11 \
  # get config
  alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
  echo ".cfg" >> .gitignore
- git clone --bare git@github.com:DrKabum/dotfiles.git $HOME/.cfg
+ git clone --bare https://github.com/DrKabum/dotfiles.git $HOME/.cfg
  config checkout
