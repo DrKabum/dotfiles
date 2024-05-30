@@ -56,7 +56,8 @@ sudo apt --yes install python3.11 \
     bat \
     zsh \
     ripgrep \
-    unzip
+    unzip \
+    tmux
 
 # install nvm (node is a dependency of neovim's LSP
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash  
@@ -66,5 +67,9 @@ echo ".cfg" >> .gitignore
 git clone --bare https://github.com/DrKabum/dotfiles.git $HOME/.cfg
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config status.showUntrackedFiles no
+
+# clean up
+rm lazygit*
+rm nvim-linux64.tar.gz
 
 echo "installation done. Please log out and log back in."
