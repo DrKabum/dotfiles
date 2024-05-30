@@ -43,10 +43,9 @@ sudo apt --yes install python3.11 \
     bat
 
 # install nvm (node is a dependency of neovim's LSP
- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash  
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash  
 
- # get config
- alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
- echo ".cfg" >> .gitignore
- git clone --bare https://github.com/DrKabum/dotfiles.git $HOME/.cfg
- config checkout
+# get config
+echo ".cfg" >> .gitignore
+git clone --bare https://github.com/DrKabum/dotfiles.git $HOME/.cfg
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
