@@ -7,6 +7,8 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 
 - Some nerd fonts (like [that one](https://www.nerdfonts.com/))
 - git (version control for this repo. Yes)
+- curl
+- homebrew
 - [antigen](https://github.com/zsh-users/antigen/wiki/Installation) (plugin manager for zsh, install in $HOME)
 - [eza](https://github.com/eza-community/eza) (replacement for `ls`)
 - [zoxide](https://github.com/ajeetdsouza/zoxide) (replacement for `cd`)
