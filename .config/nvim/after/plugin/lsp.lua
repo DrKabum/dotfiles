@@ -21,11 +21,7 @@ lsp_zero.set_sign_icons({
 require('mason').setup({})
 require('mason-lspconfig').setup({
 	ensure_installed = {
-		'tsserver',
-		'eslint',
 		'lua_ls',
-		'docker_compose_language_service',
-		'tflint',
 	},
 	handlers = {
 		function(server_name)
