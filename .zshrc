@@ -12,7 +12,14 @@ bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
 # antigen configuration
-source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS
+    source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
+elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    # Linux
+    source ~/antigen.zsh
+    echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' 
+fi
 ## install plugins
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting # keep last
