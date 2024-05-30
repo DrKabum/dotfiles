@@ -27,7 +27,7 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 
 ## install thefuck
 sudo apt update
-sudo apt install python3-dev python3-pip python3-setuptools
+sudo apt install -y python3-dev python3-pip python3-setuptools
 pip3 install thefuck --user
 
 ## install lazygit
@@ -37,7 +37,7 @@ tar xf lazygit.tar.gz lazygit
 sudo install lazygit /usr/local/bin
 
 ## install the rest
-sudo apt install python3.11 \
+sudo apt install -y python3.11 \
     python3.11-venv \
     fzf \
     bat
