@@ -18,8 +18,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # Linux
     source ~/antigen.sh
-    echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' 
-    echo 'export PATH="$PATH:~/.local/bin"'
+    export PATH="$PATH:/opt/nvim-linux64/bin" 
+    export PATH="$PATH:$HOME/.local/bin"
 fi
 ## install plugins
 antigen bundle zsh-users/zsh-autosuggestions
