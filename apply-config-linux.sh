@@ -40,7 +40,8 @@ sudo install lazygit /usr/local/bin
 sudo apt --yes install python3.11 \
     python3.11-venv \
     fzf \
-    bat
+    bat \
+    zsh
 
 # install nvm (node is a dependency of neovim's LSP
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash  
@@ -49,3 +50,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 echo ".cfg" >> .gitignore
 git clone --bare https://github.com/DrKabum/dotfiles.git $HOME/.cfg
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+
+# make zsh default
+chsh -s $(which zsh)
+
+echo "installation done. Please log out and log back in."
