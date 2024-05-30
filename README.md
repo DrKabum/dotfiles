@@ -16,6 +16,7 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [bat](https://github.com/sharkdp/bat)
+- Some nerd fonts (like [that one](https://www.nerdfonts.com/))
 
 ### Other
 
