@@ -7,7 +7,6 @@ sudo apt update
 curl -L git.io/antigen > ~/antigen.sh
 
 ## install eza
-sudo apt update
 sudo apt install -y gpg
 
 sudo mkdir -p /etc/apt/keyrings
