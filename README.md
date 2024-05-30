@@ -2,7 +2,8 @@
 
 This is my personal configuration repo. For ease of use, here is how to apply them and track any changes.
 
-## Dependencies to install first
+## Dependencies
+### packages to install
 
 - git
 - [eza](https://github.com/eza-community/eza)
@@ -15,6 +16,14 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [bat](https://github.com/sharkdp/bat)
+
+### Other
+
+1. Install [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 ## Out of scope (you might want to create manually)
 
