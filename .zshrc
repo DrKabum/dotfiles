@@ -12,18 +12,7 @@ bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
 # antigen configuration
-## source antigen and other OS specific configuration 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    # macOS
-    source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
-    alias vim="nvim"
-elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    # Linux
-    source ~/antigen.zsh
-    PATH=$PATH:~/.local/bin
-    alias vim="snap run nvim"
-    alias nvim="snap run nvim"
-fi
+source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
 ## install plugins
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting # keep last
@@ -78,7 +67,8 @@ alias glo='git log --pretty="oneline"'
 alias glol='git log --graph --oneline --decorate'
 alias batdiff='git diff --name-only --relative --diff-filter=d | xargs bat --diff'
 alias lg='lazygit'
-alias config='/usr/bin/git --git-dir=$HOME/.mycfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias vim="nvim"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
