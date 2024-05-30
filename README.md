@@ -17,6 +17,7 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [bat](https://github.com/sharkdp/bat)
 - Some nerd fonts (like [that one](https://www.nerdfonts.com/))
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation)
 
 ### Other
 
@@ -24,6 +25,15 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+2. Install Alacritty themes and add coolnight
+
+```bash
+mkdir ~/.config/alacritty
+cd ~/.config/alacritty
+git clone https://github.com/alacritty/alacritty-theme themes
+curl https://raw.githubusercontent.com/josean-dev/dev-environment-files/main/.config/alacritty/themes/themes/coolnight.toml --output ~/.config/alacritty/themes/themes/coolnight.toml
 ```
 
 ## Out of scope (you might want to create manually)
