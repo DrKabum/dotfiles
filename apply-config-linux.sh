@@ -52,7 +52,4 @@ git clone --bare https://github.com/DrKabum/dotfiles.git $HOME/.cfg
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME status.showUntrackedFiles no
 
-# make zsh default
-chsh -s $(which zsh)
-
 echo "installation done. Please log out and log back in."
