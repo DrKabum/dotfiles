@@ -5,15 +5,20 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 ## Dependencies to install first
 
 - git
-- eza
-- zoxide
+- [eza](https://github.com/eza-community/eza)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
 - python3.11
-- fzf
-- nvim
-- thefuck
-- bun
-- zsh-autosuggestions
-- zsh-syntax-highlighting
+- [fzf](https://github.com/junegunn/fzf)
+- [nvim](https://neovim.io/)
+- [thefuck](https://github.com/nvbn/thefuck)
+- [bun](https://bun.sh/)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [bat](https://github.com/sharkdp/bat)
+
+## Out of scope (you might want to create manually)
+
+- `.zshenv`
 
 ## Apply configuration
 
