@@ -19,6 +19,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # Linux
     source ~/antigen.zsh
+    PATH=$PATH:~/.local/bin
 fi
 ## install plugins
 antigen bundle zsh-users/zsh-autosuggestions
@@ -43,7 +44,7 @@ export BAT_THEME="1337"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 # bun completions
-[ -s "/Users/nico/.bun/_bun" ] && source "/Users/nico/.bun/_bun"
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # aliases
 ## ---- Eza (better ls) -----
@@ -76,4 +77,4 @@ alias glo='git log --pretty="oneline"'
 alias glol='git log --graph --oneline --decorate'
 alias batdiff='git diff --name-only --relative --diff-filter=d | xargs bat --diff'
 alias lg='lazygit'
-alias config='/usr/bin/git --git-dir=/Users/nico/.mycfg/ --work-tree=/Users/nico'
+alias config='/usr/bin/git --git-dir=$HOME/.mycfg/ --work-tree=$HOME'
