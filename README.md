@@ -5,6 +5,7 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 ## Dependencies
 ### packages to install
 
+- Some nerd fonts (like [that one](https://www.nerdfonts.com/))
 - git (version control for this repo. Yes)
 - [antigen](https://github.com/zsh-users/antigen/wiki/Installation) (plugin manager for zsh, install in $HOME)
 - [eza](https://github.com/eza-community/eza) (replacement for `ls`)
@@ -14,10 +15,7 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 - [nvim](https://neovim.io/) (this is now you IDE)
 - [thefuck](https://github.com/nvbn/thefuck) (helps rephrase missed commands)
 - [bun](https://bun.sh/) (an alias is configured for it)
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) (command auto completion)
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) (syntax highlighting for commands. Green command = all good)
 - [bat](https://github.com/sharkdp/bat) (syntax highlighting in `cat`)
-- Some nerd fonts (like [that one](https://www.nerdfonts.com/))
 - [LazyGit](https://github.com/jesseduffield/lazygit) (an alias is configured for it)
 
 ### Other
