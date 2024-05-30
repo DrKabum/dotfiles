@@ -18,6 +18,7 @@ This is my personal configuration repo. For ease of use, here is how to apply th
 - [bat](https://github.com/sharkdp/bat)
 - Some nerd fonts (like [that one](https://www.nerdfonts.com/))
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation)
+- [LazyGit](https://github.com/jesseduffield/lazygit)
 
 ### Other
 
