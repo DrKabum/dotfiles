@@ -15,11 +15,14 @@ bindkey '^[[B' history-search-forward
 if [[ "$OSTYPE" == "darwin"* ]]; then
     # macOS
     source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
+    eval $(fzf --zsh)
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # Linux
     source ~/antigen.sh
     export PATH="$PATH:/opt/nvim-linux64/bin" 
     export PATH="$PATH:$HOME/.local/bin"
+    source /usr/share/doc/fzf/examples/key-bindings.zsh
+    source /usr/share/doc/fzf/examples/completion.zsh
 fi
 ## install plugins
 antigen bundle zsh-users/zsh-autosuggestions
@@ -54,8 +57,6 @@ alias cd="z"
 eval "$(zoxide init zsh)"
 ## Python
 alias python="python3.11"
-## fzf
-eval "$(fzf --zsh)"
 ## thefuck
 eval $(thefuck --alias)
 eval $(thefuck --alias fichtre)

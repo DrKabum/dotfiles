@@ -59,6 +59,9 @@ sudo apt --yes install python3.11 \
     unzip \
     tmux
 
+# bat symlink
+ls -s /usr/bin/batcat ~/.local/bin/bat
+
 # install nvm (node is a dependency of neovim's LSP
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash  
 
