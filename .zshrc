@@ -17,7 +17,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     source $HOMEBREW_PREFIX/share/antigen/antigen.zsh
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # Linux
-    source ~/antigen.zsh
+    source ~/antigen.sh
     echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' 
     echo 'export PATH="$PATH:~/.local/bin"'
 fi
