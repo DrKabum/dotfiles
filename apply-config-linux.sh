@@ -50,6 +50,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 echo ".cfg" >> .gitignore
 git clone --bare https://github.com/DrKabum/dotfiles.git $HOME/.cfg
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
-/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME status.showUntrackedFiles no
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME config status.showUntrackedFiles no
 
 echo "installation done. Please log out and log back in."
