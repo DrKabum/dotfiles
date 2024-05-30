@@ -50,6 +50,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 echo ".cfg" >> .gitignore
 git clone --bare https://github.com/DrKabum/dotfiles.git $HOME/.cfg
 /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME checkout
+/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME status.showUntrackedFiles no
 
 # make zsh default
 chsh -s $(which zsh)
